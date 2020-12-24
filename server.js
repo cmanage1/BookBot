@@ -8,7 +8,7 @@ console.log("Server is now running, you can go to sleep now :)")
 
 // schedule tasks to be run on the server
 //minute hour dayOfMonth month dayOfWeek
-cron.schedule("40 09 * * *", function () {
+cron.schedule("30 03 22 * *", function () {
     (async () => {
         console.log("Attempting to book now...");
 
